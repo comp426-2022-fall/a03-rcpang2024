@@ -1,12 +1,11 @@
 #!usr/bin/env mode
 
-import { roll } from "/lib/roll.js";
+import { roll } from "../lib/roll.js";
 import minimist from "minimist";
 
 const args = minimist(process.argv.slice(2));
-const sides = args.sides || 6;
-const dice = args.dice || 2;
-const rolls = args.rolls || 1;
+var sides = args.sides || 6;
+var dice = args.dice || 2;
+var rolls = args.roll || 1;
 
-const theOutput = roll(sides, dice, rolls);
-console.log(JSON.stringify(theOutput));
+console.log(JSON.stringify(roll(sides, dice, rolls));

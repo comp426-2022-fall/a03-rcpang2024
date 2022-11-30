@@ -4,7 +4,7 @@
   "description": "a03 assignment",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "roll-dice --sides=6 --dice=3 --rolls=5"
+    "test": "node bin/cli.js --sides=6 --dice=2 --rolls=3"
   },
   "repository": {
     "type": "git",
