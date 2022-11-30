@@ -4,7 +4,7 @@
   "description": "a03 assignment",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "node bin/cli.js --sides=6 --dice=2 --rolls=3"
+    "test": "node bin/cli.js --side=10 --dice=2 --rolls=3"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
 	"roll-dice": "./bin/cli.js"
   },
   "dependencies": {
-	"minimist": "^1.2.7"
+	"minimist": "^1.2.7",
+	"mathjs": "^11.4.0"
   },
   "type": "module"
 }
