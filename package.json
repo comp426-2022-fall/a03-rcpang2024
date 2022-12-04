@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-rcpang2024.git"
   },
-  "keywords": [
-    "a03"
-  ],
   "author": "rcpang2024",
   "license": "MIT",
   "bugs": {
@@ -23,8 +20,7 @@
 	"roll-dice": "./bin/cli.js"
   },
   "dependencies": {
-	"minimist": "^1.2.7",
-	"mathjs": "^11.4.0"
+	"minimist": "^1.2.7"
   },
   "type": "module"
 }
